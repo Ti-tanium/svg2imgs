@@ -4,7 +4,9 @@
   "description": "Convert SVG animation to a image sequence with specified FPS.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Ti-tanium/svg2imgs/issues"
   },
-  "homepage": "https://github.com/Ti-tanium/svg2imgs#readme"
+  "homepage": "https://github.com/Ti-tanium/svg2imgs#readme",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
 }
