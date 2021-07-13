@@ -31,5 +31,6 @@
   "homepage": "https://github.com/Ti-tanium/svg2imgs#readme",
   "devDependencies": {
     "typescript": "^4.3.4"
-  }
+  },
+  "dependencies": {}
 }
